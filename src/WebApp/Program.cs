@@ -23,7 +23,7 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSpa(spaBuilder =>
     {
-        spaBuilder.Options.PackageManagerCommand = "yarn";
+        spaBuilder.Options.PackageManagerCommand = "npm";
         spaBuilder.Options.SourcePath = Path.GetFullPath("./RemixApp");
 
         spaBuilder.UseReactDevelopmentServer("dev");

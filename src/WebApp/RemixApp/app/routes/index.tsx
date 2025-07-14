@@ -16,6 +16,7 @@ export default function Index() {
   return (
     <>
       <h1>{data}</h1>
+      <p>This is from Remix!</p>
     </>
   );
 }
